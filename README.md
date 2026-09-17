@@ -11,6 +11,10 @@
   Solana
 </p>
 
+![FOMOFUN paper desk](docs/desk.png)
+
+[desk loop](docs/desk.mp4)
+
 ## What it is
 
 Top traders on [fomo.family](https://fomo.family) print a bag. The timeline mints the hype token after.
@@ -21,7 +25,7 @@ Paper desk. No keys in this repo.
 
 ## Desk
 
-`index.html` — 1920×1080 control room.
+Open `index.html` in a browser.
 
 - CAM 01: FOMO core (hue-locked particle nebula)
 - left: FOMO.FAMILY top Solana + mirror log + first-candle analytics
@@ -29,13 +33,16 @@ Paper desk. No keys in this repo.
 - bottom: candles · WATCH → MINT → C1 → TP · volume
 - core color and terminal chrome share one hue loop
 
-Open `index.html` in a browser, or:
+## Layout
 
-```bash
-python -m http.server 8766
 ```
-
-then `http://127.0.0.1:8766/`
+index.html      1920×1080 room
+src/style.css   chrome + hue tokens
+src/desk.js     whales, logs, core, candles
+docs/desk.png   still
+docs/desk.mp4   4s loop
+LICENSE         MIT
+```
 
 ## Disclaimer
 
